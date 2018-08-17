@@ -1,0 +1,142 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+    #navigation {
+        margin-top: 0px;
+        margin-left: -25px;
+        text-align: center;
+        background-color:white;
+        position: fixed;
+        top: 0em;
+        padding: 1em;
+        width: 100%;
+        height: 1em;
+        list-style-type: none;
+    }
+        li {
+            padding: 1em;
+            display: inline;
+        }
+        li a {
+            color: black;
+        }
+
+        li a:hover {
+            color: #00000099;
+            cursor: pointer;
+        }
+    
+
+    #inner_intro_div {
+            background-image: url(wings.jpg);
+            margin: 0 auto;
+            height: 60em;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+    }
+        #WingCityLogo1 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 17.5em
+        }
+        #intro_header1 {
+            padding-top: 0em;
+            color: white;
+            text-align: center;
+        }
+        #established_date {
+            color: white;
+            text-align: center;
+        }
+
+
+#inner_wings_div {
+    background-image: url(wings2.jpg);
+    margin: 0 auto;
+    height: 37em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#about1 {
+    background-color: white;
+    padding: 2em;
+    text-align: center;
+    font-size: 1.5em
+}
+
+
+.Location {
+    text-align: center;
+    padding-top: 2em;
+    background-color: white;
+    width: 33.3%;
+    height: 15em;
+    float: left;
+}
+
+
+#inner_resturant_div {
+    background-image: url(resturant.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 40em;
+    background-repeat: no-repeat;
+}
+
+
+#Menus_Header {
+    font-size: 2em;
+    text-align: center;
+}
+    #Menus_Navigation {
+        text-align: center;
+        font-size: 2em;
+        margin-left: -30px
+    }
+
+
+.Table_Header {
+    text-align: center;
+}
+.Menus_Table {
+    text-align: justify;
+    width: 66.6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ComboText {
+    text-align: center;
+}
+
+
+.newsletterContainer {
+    padding: 2em;
+}
+input[type=text], input[type=submit] {
+    width: 66.6%;
+    padding: 1.5em;
+    margin: 8px 0;
+    display: inline-block
+}
+input[type=submit] {
+    background-color: #44AA50;
+    color: white;
+    border: none;
+}
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background-color: white;
+    padding: 3em;
+}

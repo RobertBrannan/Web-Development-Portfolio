@@ -1,0 +1,105 @@
+body {
+    font: 16px Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #eeeeee
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*The dark top div*/
+.topdiv {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: #323232;
+    width: 100%;
+    padding: 4px;
+}
+
+
+/*The Dogs Illustrated branding*/
+.brandingbar {
+    border-bottom: #323232 1px;
+}
+
+.brandingbar h1 {
+    font-size: 32px;
+}
+
+.brandingbar p {
+    margin-top: -24px;
+}
+
+
+/*The forms*/
+.forms {
+    width: 250px;
+}
+
+.forms input[type="text"], .forms input[type="password"] {
+    padding: 5px;
+    height: 25px;
+    width: 250px;
+}
+
+.loginButton {
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+/*Big doggo*/
+#doggo {
+    background-image: url(./bigdog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: -374px;
+    height: 600px;
+}
+
+
+/*The footer and things that go at the bottom*/
+.information {
+    font-size: 12px;
+    color: #eeeeee;
+    background-color: #323232;
+    overflow: hidden;
+}
+
+.boxes {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerdiv {
+    width: 22%;
+    float: left;
+    padding: 10px;
+}
+
+footer {
+    font-size: 12px;
+    color: #eeeeee;
+    background-color: #323232;
+    padding: 10px;
+    height: 150px;
+}
+
+
+
+/*When the screen width is less than 768px*/
+@media(max-width: 768px) {
+    .footerdiv, .information {
+        float: none;
+        text-align: center;
+        width: 100%
+    }
+}
